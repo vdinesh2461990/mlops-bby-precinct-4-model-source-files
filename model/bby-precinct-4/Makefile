@@ -1,6 +1,6 @@
 LOCAL_SERVICE_PORT=5500
 IMAGE_NAME=127.0.0.1:5000/vdinesh1990/bby-precinct-4
-MODEL_VERSION=v2
+MODEL_VERSION=v3
 
 watch_docker:
 	@watch -n 1 'docker ps -a'
